@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#section {
+	margin-left: 280px;
+	text-align: center;
+}
+
+
+
+
+#bouton {
+width: 135px;
+float: left;
+text-align:center;
+margin-top: 100px;
+margin-bottom: 20px;
+padding: 0px 0px 0px 0px; 
+background: #0090FF;  /* couleur menu */
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif; 
+border-radius: 5px; 
+position:static;
+}
+
+#bouton a,
+#bouton a:link {
+font-weight: bold; 
+color: #000000; 
+text-decoration: none; 
+display: block; 
+padding: 8px 20px; /* grandeur case */
+margin: 0; 
+border-radius: 5px; 
+text-shadow: 0 1px 1px rgba(0,0,0, .3);
+}
+
+#bouton:hover > a {
+background: #B0E227; 
+color: #FFFFFF;  
+box-shadow: 0 1px 1px rgba(0,0,0, .2);
+}
+
+#body
+{
+    background-repeat: url(images/fond1.jpg) repeat;
+}
+
+
+
+
+
+
+
+
+#visit {
+width: 135px;
+float: left;
+text-align:center;
+margin-top: 100px;
+margin-right: 100px;
+margin-left: 100px;
+padding: 0px 0px 0px 0px; 
+background: #0090FF;  /* couleur menu */
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif; 
+border-radius: 5px;
+position: static;
+}
+
+#visit a,
+#visit a:link {
+font-weight: bold; 
+color: #000000; 
+text-decoration: none; 
+display: block; 
+padding: 8px 20px; /* grandeur case */
+margin: 0; 
+border-radius: 5px; 
+text-shadow: 0 1px 1px rgba(0,0,0, .3);
+}
+
+#visit:hover > a {
+background: #B0E227; 
+color: #FFFFFF;  
+box-shadow: 0 1px 1px rgba(0,0,0, .2);
+}
+
+
+
+
+
+
+
+
+
+
+#wn	{
+	margin-left: 400px;
+	position:relative;
+	width:332px; height:332px;
+	overflow:hidden;
+	border:5px solid #ddd;
+}
+
+#wn table {
+	border-spacing:0;
+    border-collapse:collapse;
+}
+	
+#wn td {
+	padding: 16px;
+}

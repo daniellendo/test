@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bienvenue sur DAGON</title>
+
+<link href="index2.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body background="images/fond1.jpg">
+
+
+<div id="wn">
+    <div id="lyr" class="content">
+    <table>
+        <tr>
+            <td><img src="images/E1.jpg" width="300" height="300" alt="" /></td>
+        	<td><img src="images/E2.jpg" width="300" height="300" alt="" /></td>
+        	<td><img src="images/E3.jpg" width="300" height="300" alt="" /></td>
+        	<td><img src="images/E4.jpg" width="300" height="300" alt="" /></td>
+        	
+            <!-- repeat first item(s)-->
+            <td id="rpt"><img src="images/images1.jpg" width="300" height="300" alt="" /></td>
+            <!-- if width = 2 images, repeat at least first 2 -->
+            <td><img src="images/images2.jpg" width="300" height="300" alt="" /></td>
+        </tr>
+    </table>
+    </div>
+</div>
+
+
+
+
+<script src="dw_paus_scroller.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if ( DYN_WEB.Scroll_Div.isSupported() ) {
+    
+    DYN_WEB.Event.add( window, 'load', function() {
+		var wndo = new DYN_WEB.Scroll_Div('wn', 'lyr');
+		
+		var options = {
+			axis:'h',
+			bRepeat:true,
+			repeatId:'rpt',
+			dur:600, // durée entre chaque slide
+			bPauseResume:true,
+			distance: 332, // distance entre chaque slide
+			pauseDelay: 3000, 
+			resumeDelay: 300,
+			startDelay: 1000
+			};
+		
+		wndo.makePauseAuto( options );
+		
+	});
+}
+
+</script>
+
+<div id="section">
+
+<div id="bouton"> <a href="pageConnexion.html" TARGET=popup onclick="window.open('','popup','width=650px, height=200px, left=0,top=0,scrollbars=1')"><span>Se connecter</span></a></div>
+
+
+
+<div id="visit"> <a href="visiteur.html"> VISITEZ !</a> </div>
+
+
+<div id="bouton"> <a href="pageInscription.html" TARGET=popup onclick="window.open('','popup','width=650px, height=320px, left=0,top=0,scrollbars=1')"><span>S'inscrire</span></a> </div>
+
+
+</div>
+
+</body>
+</html>
